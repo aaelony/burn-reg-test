@@ -1,4 +1,4 @@
 # burn-reg-test
 Regression with Burn
 
-Exploring Burn framework using the Hugginface Candle backend.
+Exploring Burn framework using the Huggingface Candle backend.
