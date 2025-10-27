@@ -1,0 +1,19 @@
+
+
+
+help:
+	@just --list
+
+build: ## cargo build
+	cargo build --release
+
+run:  ## cargo run
+	cargo run
+
+
+check_deps_versions:  ## Check for newer versions of dependency crates (requires cargo install cargo-edit).
+	cargo upgrade -i --dry-run --verbose
+
+
+
+
